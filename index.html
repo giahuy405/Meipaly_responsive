@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+     <!-- =======light gallery======= -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.6.1/css/lightgallery-bundle.min.css">
+    <!-- slick  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+    <!-- googleFont -->
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;500;700&family=Montserrat:wght@300;400;500;700&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- fontAwsome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- MainCSS -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbarMeipaly navbar navbar-expand-md container ">
+            <a class="navbar-brand" href="#">
+                <i class="fab fa-atlassian"></i>
+                <span class="ml-2 ">meipaly</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMeipaly"
+                aria-controls="navbarMeipaly" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarMeipaly">
+                <ul class="navbar-nav ml-auto" id="mainNav" >
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SHOWCASE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="carouselMeipaly section">
+        <div class="carousel__content">
+            <p>WELCOME TO MEIPALY AGENCY</p>
+            <h2>SMART WEB DESIGN AGENCY</h2>
+            <button class="btn">READ MORE <i class="fa-solid fa-angles-right"></i></button>
+            <br>
+            <i class="arrowDown1 fa-solid fa-angle-down"></i>
+        </div>
+    </section>
+    <section class="service section">
+        <div class="title">
+            <p>SERVICES WE ARE OFFERING</p>
+            <h2>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.</h2>
+            <h3>We are committed to providing our customers with exceptional service while offering our employees the best training.</h3>
+        </div>
+        <div class="service__slider  ">
+            <div class="service__item">
+                <i class="fab fa-autoprefixer"></i>
+                <p>DIGITAL <br> MARKETING</p>
+            </div>
+            <div class="service__item">
+                 <i class="fa fa-blog"></i>
+                <p>SEO & CONTENT <br> WRITING</p>
+            </div>
+            <div class="service__item">
+                <i class="fa fa-memory"></i>
+                <p>WEBSITE <br> DEVELOPMENT</p>
+            </div>
+            <div class="service__item">
+                <i class="fa fa-dice-d6"></i>
+                <p>APP MOBILE <br> DEVELOPMENT</p>
+            </div>
+            <div class="service__item">
+                <i class="fab fa-500px"></i>
+                <p>SEO & CONTENT <br> WRITING</p>
+            </div>
+            <div class="service__item">
+                <i class="fa fa-memory"></i>
+                <p>WEBSITE <br> DEVELOPMENT</p>
+            </div>
+          </div>
+    </section>
+    <section class="blog section">
+        <div class="title">
+            <p>OUR NEWS & ARTICLES</p>
+            <h2>LATEST BLOG POSTS</h2>
+            <h3>We are committed to providing our customers with exceptional service while offering our
+                employees the best training.</h3>
+        </div>
+        <div class="blog__items container" id="lightgallery">
+             <div class="blog__item">
+                <img src="./img/grid-metro-1.jpg" alt="">
+                <div class="blog__overlay">
+                    <a class="lighting" data-exthumbimage="./img/grid-metro-1.jpg" data-src="./img/grid-metro-1.jpg"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <div class="blog__text">
+                        <p>LOGO</p>
+                        <h3>FLIPPIN BIRD</h3>
+                    </div>
+                </div>
+             </div>
+             <div class="blog__item">
+                <img src="./img/grid-metro-2.jpg" alt="">
+                <div class="blog__overlay">
+                    <a class="lighting" data-exthumbimage="./img/grid-metro-2.jpg" data-src="./img/grid-metro-2.jpg"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <div class="blog__text">
+                        <p>LOGO</p>
+                        <h3>FLIPPIN BIRD</h3>
+                    </div>
+                </div>
+             </div>
+             <div class="blog__item">
+                <img src="./img/grid-metro-3.jpg" alt="">
+                <div class="blog__overlay">
+                    <a class="lighting" data-exthumbimage="./img/grid-metro-3.jpg" data-src="./img/grid-metro-3.jpg"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <div class="blog__text">
+                        <p>LOGO</p>
+                        <h3>FLIPPIN BIRD</h3>
+                    </div>
+                </div>
+             </div>
+             <div class="blog__item">
+                <img src="./img/grid-metro-4.jpg" alt="">
+                <div class="blog__overlay">
+                    <a class="lighting" data-exthumbimage="./img/grid-metro-4.jpg" data-src="./img/grid-metro-4.jpg"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <div class="blog__text">
+                        <p>LOGO</p>
+                        <h3>FLIPPIN BIRD</h3>
+                    </div>
+                </div>
+             </div>
+             <div class="blog__item">
+                <img src="./img/grid-metro-5.jpg" alt="">
+                <div class="blog__overlay">
+                    <a class="lighting" data-exthumbimage="./img/grid-metro-5.jpg" data-src="./img/grid-metro-5.jpg"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <div class="blog__text">
+                        <p>LOGO</p>
+                        <h3>FLIPPIN BIRD</h3>
+                    </div>
+                </div>
+             </div>
+             <div class="blog__item">
+                <img src="./img/grid-metro-6.jpg" alt="">
+                <div class="blog__overlay">
+                    <a class="lighting" data-exthumbimage="./img/grid-metro-6.jpg" data-src="./img/grid-metro-6.jpg"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <div class="blog__text">
+                        <p>LOGO</p>
+                        <h3>FLIPPIN BIRD</h3>
+                    </div>
+                </div>
+             </div>
+             <div class="blog__item">
+                <img src="./img/grid-metro-7.jpg" alt="">
+                <div class="blog__overlay">
+                    <a class="lighting" data-exthumbimage="./img/grid-metro-7.jpg" data-src="./img/grid-metro-7.jpg"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <div class="blog__text">
+                        <p>LOGO</p>
+                        <h3>FLIPPIN BIRD</h3>
+                    </div>
+                </div>
+             </div>
+             <div class="blog__item">
+                <img src="./img/grid-metro-8.jpg" alt="">
+                <div class="blog__overlay">
+                    <a class="lighting" data-exthumbimage="./img/grid-metro-8.jpg" data-src="./img/grid-metro-8.jpg"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <div class="blog__text">
+                        <p>LOGO</p>
+                        <h3>FLIPPIN BIRD</h3>
+                    </div>
+                </div>
+             </div>
+             <div class="blog__item">
+                <img src="./img/grid-metro-9.jpg" alt="">
+                <div class="blog__overlay">
+                    <a class="lighting" data-exthumbimage="./img/grid-metro-9.jpg" data-src="./img/grid-metro-9.jpg"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <div class="blog__text">
+                        <p>LOGO</p>
+                        <h3>FLIPPIN BIRD</h3>
+                    </div>
+                </div>
+             </div>
+             <div class="blog__item">
+                <img src="./img/grid-metro-10.jpg" alt="">
+                <div class="blog__overlay">
+                    <a class="lighting" data-exthumbimage="./img/grid-metro-10.jpg" data-src="./img/grid-metro-10.jpg"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <div class="blog__text">
+                        <p>LOGO</p>
+                        <h3>FLIPPIN BIRD</h3>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </section>
+    <section class="number section">
+        <div class="number__content container">
+            <div class="  row ">
+                <div class="col-6 col-md-3 number__item">
+                    <h3 class="counter">10,705</h3>
+                    <p>PROJECTS COMPLETED</p>
+                </div>
+                <div class="col-6 col-md-3 number__item">
+                    <h3 class="counter">980</h3>
+                    <p>ACTIVE CLIENTS</p>
+                </div>
+                <div class="col-6 col-md-3 number__item">
+                    <h3 class="counter">825</h3>
+                    <p>CUPS OF COFFEE</p>
+                </div>
+                <div class="col-6 col-md-3 number__item">
+                    <h3 class="counter">9,774</h3>
+                    <p>HAPPY CLIENTS</p>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <section class="experience section">
+       <div class="experience__content">
+        <div class="title">
+            <p>HOW DO WE WORKS</p>
+            <h2>DIGITAL EXPERIENCE</h2>
+            <h3>We are committed to providing our customers with exceptional service while offering our
+                employees the best training.</h3>
+        </div>
+        <div class="experience__video container ">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7nUdHAVSLr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+       </div>
+    </section>
+    
+
+
+  
+    <!-- navigation -->
+    <script>
+        var mainNav = document.getElementById("mainNav");
+        var listNav = mainNav.getElementsByTagName("li");
+        for (i = 0; i < listNav.length; i++) {
+          listNav[i].addEventListener("click", function () {
+            var current = document.querySelector("#mainNav .active");
+            current.className = current.className.replace("active", "");
+            // space + active cách ra với class cũ
+            this.className += " active";
+          })
+        }
+      </script>
+
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+      <!-- slick  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.service__slider').slick({
+            slidesToShow:5,
+            infinity:true,
+            prevArrow:false,
+            nextArrow:false,
+            dots:true,
+            autoplay:true,
+            autoplaySpeed:2000,
+            responsive: [
+            {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+            },
+            {    
+            breakpoint: 762,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+            },
+            {
+            breakpoint: 567,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+            },
+            ]
+          });
+        });  
+      </script>
+<!--lightGallery -->
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.1/lightgallery.umd.min.js"></script>
+<!--lightGallery__Plugin -->
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.1/plugins/zoom/lg-zoom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.1/plugins/share/lg-share.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.1/plugins/rotate/lg-rotate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.1/plugins/fullscreen/lg-fullscreen.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.6.1/plugins/autoplay/lg-autoplay.min.js"></script>
+<script>
+    lightGallery(document.getElementById("lightgallery"), {
+        selector: ".lighting",
+        plugins: [lgZoom,lgThumbnail,lgShare,lgRotate,lgFullscreen,lgAutoplay],
+        alignThumbnails: "center",
+        loop: true,
+        allowMediaOverlap: true,
+        toggleThumb: true,
+        showZoomInOutIcons: true,
+        actualSize: false,
+     exThumbImage: "data-exthumbimage"
+    });
+</script>
+    <!-- wayPoint -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <!-- CountUp_1_time -->
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script>
+        $('.counter').counterUp({
+            delay: 10,
+            time: 2200,
+        });
+    </script>
+
+
+</body>
+
+</html>
